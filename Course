@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Courses — English with Tina</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo"><img src="images/logo-placeholder.jpg" alt="Logo" style="width:100%;height:100%;object-fit:cover;"></div>
+      <div>
+        <h1 class="site-title">English with Tina</h1>
+        <div class="tagline">Trinity certified ESOL teacher</div>
+      </div>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <section style="padding-top:18px;">
+      <h2>General English Course — Online</h2>
+      <div class="card">
+        <div class="course">
+          <img src="images/henry-photo-placeholder.jpg" alt="Course image">
+          <div class="meta">
+            <h3>What you get</h3>
+            <p class="small">2 or 3 sessions a week at 17:30 UK (Mon to Fri). Each lesson lasts 1.5 hours. Plus one weekly speaking-only session with native speaker Henry Corner to practise real conversation.</p>
+            <p class="small"><strong>First lesson:</strong> FREE. <strong>Price:</strong> £4.50 per hour from lesson 2. Pay for the whole course (22 lessons x 1.5 hours) or pay monthly.</p>
+          </div>
+        </div>
+
+        <h3>Course format</h3>
+        <ul class="small">
+          <li>Grammar, speaking, listening and vocabulary</li>
+          <li>Personalised feedback and homework</li>
+          <li>Speaking-focused practice with a native teacher weekly</li>
+        </ul>
+
+        <h3>How to join</h3>
+        <p class="small">Go to the <a href="index.html">Home</a> page and fill out the sign-up form to request your free lesson. I will contact you with available times and payment options.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="small">Contact: <a href="mailto:englishtinauk@outlook.com">englishtinauk@outlook.com</a></div>
+      <div class="small">© English with Tina</div>
+    </footer>
+  </div>
+</body>
+</html>
