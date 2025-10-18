@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>About — English with Tina</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo"><img src="images/logo-placeholder.jpg" alt="Logo" style="width:100%;height:100%;object-fit:cover;"></div>
+      <div>
+        <h1 class="site-title">English with Tina</h1>
+        <div class="tagline">Trinity certified ESOL teacher</div>
+      </div>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <section style="padding-top:18px;">
+      <h2>About Kristina (Tina)</h2>
+      <div class="card">
+        <p class="small">My name is Kristina Korolkova. I’m from Ukraine and I’ve lived in the UK since 2021. I’ve taught English for more than 10 years. I’ve always been passionate about languages. I find pleasure in teaching and helping people make their dreams come true.</p>
+        <h3>Certificate</h3>
+        <p class="small">Below is a placeholder for your teaching certificate — replace it with a photo file named <code>certificate-placeholder.jpg</code> in the <code>/images</code> folder.</p>
+        <img src="images/certificate-placeholder.jpg" alt="Certificate placeholder" style="width:100%;max-width:600px;border-radius:8px;margin-top:8px;">
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="small">Contact: <a href="mailto:englishtinauk@outlook.com">englishtinauk@outlook.com</a></div>
+      <div class="small">© English with Tina</div>
+    </footer>
+  </div>
+</body>
+</html>
