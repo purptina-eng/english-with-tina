@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>English with Tina</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo"><img src="images/logo-placeholder.jpg" alt="Logo" style="width:100%;height:100%;object-fit:cover;"></div>
+      <div>
+        <h1 class="site-title">English with Tina</h1>
+        <div class="tagline">Trinity certified ESOL teacher</div>
+      </div>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="hero">
+      <div class="cols">
+        <div class="left">
+          <h2>Congratulations! You’ve made the first step to speaking English better!</h2>
+          <p class="small">You can look through the website to learn more. Please fill out the form and I will send you the details of your FREE lesson.</p>
+
+          <div style="margin-top:12px;" class="card">
+            <!-- Netlify form -->
+            <form name="signup" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="signup" />
+              <div class="form-row">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-row">
+                <label for="phone">Phone number</label>
+                <input type="text" id="phone" name="phone" placeholder="+44..." required />
+                <div class="small">We will contact you on WhatsApp or Telegram.</div>
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-row">
+                <label for="instagram">Instagram (optional)</label>
+                <input type="text" id="instagram" name="instagram" placeholder="@yourhandle" />
+              </div>
+              <div class="form-row">
+                <label for="frequency">Preferred frequency</label>
+                <select id="frequency" name="frequency" required>
+                  <option value="3x_week">3 times a week (Mon-Wed-Fri)</option>
+                  <option value="2x_week">2 times a week (Tue-Thu)</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <label for="message">Brief information about you</label>
+                <textarea id="message" name="message" placeholder="Your experience, goals, level..." ></textarea>
+              </div>
+              <div style="display:flex;gap:8px;align-items:center;">
+                <button class="btn" type="submit">Request FREE lesson</button>
+                <div class="small">1st lesson FREE. After that £4.50/hour.</div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+        <aside class="right">
+          <div class="card">
+            <h3>Course snapshot</h3>
+            <p class="small">General English course online.<br>2 or 3 times a week at 17:30 UK (Mon to Fri).<br>1 lesson a week with a native speaker: Henry Corner — speaking practice sessions only.</p>
+            <img src="images/henry-photo-placeholder.jpg" alt="Henry Corner" style="width:100%;border-radius:8px;margin-top:8px;">
+            <p class="small" style="margin-top:8px;"><strong>Pricing:</strong> 1st lesson FREE. Only £4.50 an hour starting with lesson 2. Pay for the whole course (22 lessons, 1.5 hours each) or pay monthly.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <strong>English with Tina</strong><br>
+        Email: <a href="mailto:englishtinauk@outlook.com">englishtinauk@outlook.com</a><br>
+        Instagram & YouTube: <a href="https://instagram.com/englishwith_tina" target="_blank">@englishwith_tina</a>
+      </div>
+      <div class="small">© English with Tina</div>
+    </footer>
+  </div>
+</body>
+</html>
